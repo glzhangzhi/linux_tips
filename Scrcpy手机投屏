@@ -1,0 +1,19 @@
+安装
+sudo apt install scrcpy
+
+手机设置
+打开开发者模式，启用USB调试
+
+启用
+使用usb连接手机，终端运行scrcpy
+
+快捷键
+ctrl+o 关闭手机屏幕
+ctrl+p 锁屏
+ctrl+up 音量上
+ctrl+down 音量下
+ctrl+left 左旋屏幕
+ctrl+right 右旋屏幕
+
+安装app
+直接拖动到界面上
