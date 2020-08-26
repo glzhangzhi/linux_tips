@@ -1,21 +1,16 @@
 <<<<<<< HEAD
 ```python
-import gpiozero as go
-```
-或者
-```python
-from gpiozero import Button
-button = Button(2)
 import gpiozero
 button = gpiozero.Button(2)
 ```
 将引脚2定义为按钮，并赋值给button变量
+
 ![引脚图](https://upload-images.jianshu.io/upload_images/16191347-96c47d515e52e390.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 该库使用的是自定义的引脚序号，如上图，而不是官方定义的引脚序号，如圈内所示
 
 ```python
-from go import LED
+from gpiozero import LED
 from signal import pause
 red = LED(17)
 while True:
